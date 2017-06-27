@@ -1,0 +1,15 @@
+
+HOW TO UPLOAD
+
+From a shell in this directory:
+
+> ftp ftp.roguebooks.org
+user: roguebooks.org, password: <REDACTED>
+
+At the FTP prompt:
+ftp> prompt
+ftp> mput *.html
+ftp> mput images/*
+ftp> quit
+
+And you should be done.
